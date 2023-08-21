@@ -97,35 +97,35 @@
 		<?php if (is_po()) { ?>
 			<!-- Nav Item - Dashboard -->
 			<li class="nav-item">
-				<a class="nav-link" href="<?= base_url('supplier'); ?>">
+				<a class="nav-link" href="<?= base_url('po'); ?>">
 					<i class="fas fa-fw fa-upload"></i>
 					<span>Daftar Permintaan Barang</span>
 				</a>
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" href="<?= base_url('barangkeluar'); ?>">
+				<a class="nav-link" href="<?= base_url('po/add'); ?>">
 					<i class="fas fa-fw fa-upload"></i>
 					<span>PO Barang</span>
 				</a>
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" href="<?= base_url('barangkeluar'); ?>">
+				<a class="nav-link" href="<?= base_url('po/invoice'); ?>">
 					<i class="fas fa-fw fa-upload"></i>
 					<span>Invoice</span>
 				</a>
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" href="<?= base_url('barangkeluar'); ?>">
+				<a class="nav-link" href="<?= base_url('po/nota_pembayaran'); ?>">
 					<i class="fas fa-fw fa-upload"></i>
 					<span>Nota Pembayaran</span>
 				</a>
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" href="<?= base_url('barangkeluar'); ?>">
+				<a class="nav-link" href="<?= base_url('po/konfirmasi_pengiriman_barang'); ?>">
 					<i class="fas fa-fw fa-upload"></i>
 					<span>Konfirmasi Pengiriman Barang</span>
 				</a>
